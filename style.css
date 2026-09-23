@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;       
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;             
+  padding: 80px 40px;
+}
+
+.hero-text {     
+   max-width: 800px;     
+}
+
+.hero-text h1 {
+  margin: 0 0 20px;
+  font-size: 40px;
+}
